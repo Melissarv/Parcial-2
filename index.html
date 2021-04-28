@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Título de página -->
+    <title>Imagine Dragons- Music:)</title>
+
+    <!-- Codificación de caracteres > Caracteres especiales en Español -->
+    <meta charset="utf-8">
+
+    <!-- Cargar ícono de favoritos -->
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Enlace a librería desde CDN: PrefixFree -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+    <!-- Meta para bloquear el Zoom Out en móviles - Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Enlace a librería de íconos: FontAwesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Enlace a librería de fuentes tipográficas: Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <!-- Cargar CSS propio -->
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+</head>
+
+<body>
+
+    <aside id="menu-hamburguesa">
+        <a href="#" id="abrir">
+            <i class="fas fa-bars"></i>
+        </a>
+
+        <a href="#" id="cerrar">
+            <i class="fas fa-times"></i>
+        </a>
+        <nav>
+            <a href="#ancla-Lo nuevo">Lo nuevo</a>
+            <a href="#ancla-Ubicación">Ubicación</a>
+            <a href="#ancla-Recomendada">Recomendada</a>
+            <a href="#ancla-Lo mas escuchado">Lo mas escuchado</a>
+            <a href="#ancla-Albums mas escuchados">Albums mas escuchados</a>
+            <button>
+                <a href="#ancla-Suscribirme">Suscribirme</a>
+            </button>
+        </nav>
+    </aside>
+
+    <aside id="boton-whatsapp">
+        <a href="https://web.whatsapp.com/" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </aside>
+
+    <!-- Componente Header Logo y Menú -->
+    <header>
+        <article>
+            <a href="index.html"></a>
+            <img src="IMG/imagine-dragons-logo.png">
+            <nav>
+                <a href="#ancla-Lo nuevo">Lo nuevo</a>
+                <a href="#ancla-Ubicación">Ubicación</a>
+                <a href="#ancla-Recomendada"> Recomendada</a>
+                <a href="#ancla-Lo mas escuchado">Lo mas escuchado</a>
+                <a href="#ancla-Albums mas escuchados">Albums mas escuchados</a>
+                <button>
+                    <a href="#ancla-Suscribirme">Suscribirme</a>
+                </button>
+            </nav>
+        </article>
+    </header>
+
+    <!-- Caja Main -->
+    <main>
+
+        <section id="Video MP4" class="menu">
+            <div id="ancla-Lo mas escuchado"></div>
+            <article>
+                <div class="zona-menu">
+                    <figure>
+                        <section id="banner-video-html5-loop-muted">
+                            <div id="capa-contenido">
+                            </div>
+                            <div id="capa-color-video"></div>
+                            <video width="100%" height="700" preload="auto" controls="no" loop muted autoplay>
+                                <source src="Multimedia/Imagine Dragons - Birds (Animated Video) (2).mp4" type="video/mp4">
+                            </video>
+                        </section>
+                    </figure>
+        </section>    
+
+        <section id="galeria-imagenes">
+            <div id="ancla-Albums mas escuchados"></div>
+            <h3>Albums mas escuchados</h3>
+            <article>
+                <div id="zona-titulos" class="menu"></div>
+                <nav>
+                    <!-- En la etiqueta a se llama a la imagen grande -->
+                    <a class="IMG1" href="IMG/IMAGEN 1(2).jpg" data-fancybox="galeria">
+                        <!-- En la etiqueta img se llama a la imagen pequeña -->
+                        <img class="IMG1" src="IMG/IMAGEN 1.jpg">
+                    </a>
+
+                    <a class="IMG2" href="IMG/IMAGEN 2(2).jpg" data-fancybox="galeria">
+                        <img src="IMG/IMAGEN 2.jpg">
+                    </a>
+
+                    <a class="IMG3" href="IMG/IMAGEN 3(2).jpg" data-fancybox="galeria">
+                        <img src="IMG/IMAGEN 3.jpg">
+                    </a>
+
+                    <a class="IMG4" href="IMG/IMAGEN 4(2).jpg" data-fancybox="galeria">
+                        <img src="IMG/IMAGEN 4.jpg">
+                    </a>
+                </nav>
+                </div>
+            </article>
+        </section>
+
+        <!-- Componente Sección tipo Menú a 1 Columnas -->
+        <section id="Lo nuevo" class="menu">
+            <div id="ancla-Lo nuevo"></div>
+            <article>
+                <div class="zona-titulos">
+                    <h3>Lo nuevo</h3>
+                </div>
+                <div class="zona-menu">
+                    <figure>
+                        <section id="Video-Youtebe">
+                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/k3zimSRKqNw"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </section>
+                    </figure>
+        </section>
+
+
+        <!-- Componente Sección tipo Menú a 2 Columnas -->
+        <section id="Mapa Google" class="menu">
+            <div id="ancla-Ubicación"></div>
+            <article>
+                <div class="zona-titulos">
+                    <h3>Ubicación</h3>
+                </div>
+
+                <div class="zona-menu">
+
+                    <figure>
+                        <section id="Mapa Google">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!4v1618527407662!6m8!1m7!1sJZy2XIEezLS6wEYLwwJZGg!2m2!1d10.99520930379458!2d-74.82250807183634!3f310.5138454467006!4f8.754854180842813!5f0.7820865974627469"
+                                width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </section>
+                    </figure>
+        </section>
+
+
+        <!-- Componente Sección tipo Menú a 3 Columnas -->
+        <section id=" Video HTML5 Loop Muted Autoplay" class="menu">
+            <div id="ancla-Recomendada"></div>
+            <article>
+                <div class="zona-titulos">
+                    <h3>Recomendada</h3>
+                </div>
+
+                <div class="zona-menu">
+                    <video width="100%" height="700" preload="auto" controls="no">
+                        <source src="Multimedia/Imagine Dragons - Birds (Animated Video) (2).mp4" type="video/mp4">
+                    </video>
+
+                </div>
+            </article>
+        </section>
+                    
+
+
+        <!-- Componente Sección tipo Menú a 5 Columnas -->
+
+        <section id="formulario-contactenos">
+            <div id="ancla-Suscribirme"></div>
+            <article>
+                <div class="zona-titulos">
+                    <h3>Suscribirme</h3>
+                    <form id="formu-contacto" action="" method="get">
+                        <input type="text" id="nombre" placeholder="Nombre Completo">
+                        <input type="email" id="correo" placeholder="Correo Electrónico">
+                        <input type="tel" id="telefono" placeholder="Teléfono">
+                        <select id="asunto">
+                            <option>Asunto</option>
+                            <option value="mas-info">Más información sobre su musica y el Grupo</option>
+                            <option value="escuchar-musica">Quiero seguir escuchando su musica</option>
+                            <option value="Albums">Albums de Imagine Dragons</option>
+                        </select>
+                        <textarea rows="3" id="mensaje" placeholder="Mensaje"></textarea>
+                        <input type="submit" id="enviar" value="ENVIAR">
+                    </form>
+            </article>
+        </section>
+
+    </main>
+</body>
+
+<!-- Componente Footer Logo al Centro -->
+<footer>
+    <figure>
+        <a href="index.html">
+            <img src="IMG/imagine-dragons-logo.png">
+        </a>
+        <p>©IMAGINE DRAGONS</p>
+    </figure>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- jQuery Easing desde CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+<!-- Llamado a librería FancyApps -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="scrip.js">
+
+</html>
